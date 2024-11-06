@@ -8,8 +8,6 @@ var vite_config_default = defineConfig({
         target: 'http://localhost:3001',
         changeOrigin: true,
         secure: false,
-        // Optional: Rewrite the URL if needed
-        // rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },
   },

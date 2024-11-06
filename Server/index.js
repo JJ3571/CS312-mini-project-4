@@ -18,7 +18,7 @@ const saltRounds = 10;
 
 
 
-// --- Middlewares (dirname, Body Parser, Morgan, .env) ---
+// --- Middlewares ---
 const __dirname = dirname(fileURLToPath(import.meta.url));
 app.use(express.static(__dirname + '/public'));
 app.use(bodyparser.json());
